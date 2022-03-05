@@ -1,0 +1,20 @@
+div {
+  border: solid 2px black;
+  padding: 8px;
+}
+
+div > p,
+div > form > p {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+div > form {
+  border: dashed 2px red;
+  padding: 8px;
+}
+
+div > a {
+  display: inline-block;
+  padding: 8px;
+}
